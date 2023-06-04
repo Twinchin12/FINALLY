@@ -346,6 +346,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Launcher3QuickStep
 
+TARGET_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
