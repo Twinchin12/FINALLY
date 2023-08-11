@@ -346,10 +346,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Launcher3QuickStep
 
-# Use FUSE passthrough
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.fuse.passthrough.enable=true
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
